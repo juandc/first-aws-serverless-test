@@ -1,0 +1,15 @@
+{
+  "name": "first-aws-serverless-test",
+  "version": "0.1.0",
+  "description": "Serverless example using AWS Lambda and AWS Rekognition.",
+  "main": "index.js",
+  "author": "Juan David Castro <me@juandc.co>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.25.7"
+  }
+}
