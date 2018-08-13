@@ -1,9 +1,10 @@
-const serverless = require('serverless-http');
-const express = require('express')
+import serverless from 'serverless-http';
+import express from 'express';
+
 const app = express()
 
-app.get('/', function (req, res) {
+app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
 
-module.exports.hello = serverless(app);
+export const hello = serverless(app);
